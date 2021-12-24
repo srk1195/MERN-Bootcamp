@@ -1,0 +1,96 @@
+.btn,
+.jumbotron,
+.nav :hover {
+  font-weight: 600;
+  border: unset;
+}
+
+#root {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+:root {
+  --blue: #1982c4;
+  --yellow: #ffc107;
+}
+
+body {
+  background: #343a40;
+}
+
+.my-footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  border-top: 1px solid whitesmoke;
+}
+
+.my-footer span {
+  font-size: 13px;
+}
+
+.btn-custom {
+  background-color: var(--blue);
+  color: whitesmoke;
+}
+.btn-custom-yellow {
+  background-color: var(--yellow);
+  color: black;
+  font-weight: 200;
+}
+.btn-custom-yellow:hover {
+  border: 1px solid var(--yellow);
+  font-weight: 900;
+}
+.btn-custom:hover {
+  background-color: var(--yellow);
+  font-weight: 600;
+}
+
+.btn-custom-outline:hover {
+  background-color: var(--blue);
+  font-weight: 600;
+  color: white;
+}
+
+.btn-custom-outline {
+  background-color: transparent;
+  color: var(--blue);
+  border: 1px solid var(--blue);
+}
+
+.btn-custom-outline-yellow {
+  background-color: transparent;
+  border: 2px solid var(--yellow);
+  color: whitesmoke;
+}
+
+.btn-custom-outline-yellow:hover {
+  background-color: var(--yellow);
+  color: whitesmoke;
+}
+
+.btn-custom-danger-outline {
+  background-color: transparent;
+  border: 1px solid tomato;
+  color: tomato;
+}
+.btn-custom-danger-outline:hover {
+  background-color: tomato;
+  color: whitesmoke;
+}
+
+.text-custom {
+  color: var(--blue);
+}
+
+.list-group-item :hover {
+  font-weight: 500;
+}
+.bg-custom {
+  background-color: var(--blue);
+}
+
+.border-custom {
+  border: 1px solid var(--blue);
+}

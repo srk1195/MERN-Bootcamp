@@ -1,0 +1,16 @@
+docs/*
+testback/*
+testfront/*
+tshirts/*
+*/.vscode/*
+*/.env
+projfrontend/src/auth/.DS_Store
+projfrontend/src/.DS_Store
+projfrontend/src/admin/.DS_Store
+projfrontend/src/admin/helper/.DS_Store
+projfrontend/src/auth/helper/.DS_Store
+projfrontend/src/core/.DS_Store
+projfrontend/src/core/helper/.DS_Store
+projfrontend/src/user/.DS_Store
+projfrontend/src/user/helper/.DS_Store
+projfrontend/workspace.code-workspace
